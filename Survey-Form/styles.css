@@ -1,0 +1,78 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    }
+    header{
+      text-align:center;
+    }
+    #description{
+      margin:10px 0 26px 0;
+    }
+    body{
+      padding: 3rem 0;
+      font-size: 18px;
+      background-color:#e2e2e2;
+      font-family: tahoma;
+    }
+    #title{
+      font-size:2em;
+    }
+    fieldset,.container-list{
+      border:none;
+      padding:0;
+      margin:0;
+      margin-top:20px;
+     
+    }
+    
+    .container{
+      border-radius:6px;
+      width:80%;
+      min-width:400px;
+      max-width:600px;
+      background-color:#f4f4f4;
+      margin:0 auto;
+      padding: 20px 40px;
+      box-shadow: 0 5px 10px 5px #18181817;
+    }
+    label{
+      display:inline-block;
+      margin:12px 0;
+    }
+    label,.personal-info input, textarea, button, select{
+      width:100%;
+    }
+    .personal-info input, select, textarea{
+      margin-top:7px;
+      padding: 2px 6px;
+      min-height:2.5rem;
+      border:1px solid #e3e3e375;
+      border-radius:6px;
+      font-size: 16px;
+    }
+    textarea{
+      height:6rem;
+    }
+    
+    input[type="radio"],input[type="checkbox"]{
+      width:16px;
+      height:16px;
+    }
+    .inline{
+      display:flex;
+    font-size:1.125rem;
+    align-items:center;
+    gap:3px;
+    }
+    button{
+      display: block;
+      padding: 12px 8px;
+      font-size:16px;
+      text-transform:uppercase;
+      width: 60vw;
+      min-width:300px;
+      max-width:400px;
+      border:none;
+      background-color: #d4d4f6;
+      margin: 20px auto 32px auto;
+    }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey form</title>
+  </head>
+  <body>
+      <header>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">hahe</p>
+      </header>
+       <div class="container">
+      <form id="survey-form">
+        <fieldset class="personal-info">
+          <label id="name-label">Name <input id="name" required type="text" placeholder="Enter name"></label>
+          <label id="email-label">Email <input id="email" required type="email" placeholder="Enter email"></label>
+          <label id="number-label">Age <input type="number" id="number" min="12" max="100" placeholder="Age"></label>
+        </fieldset>  
+        <fieldset>
+           <label>
+             Which option best describes your current role?
+            <select id="dropdown">
+              <option>Select an option</option>
+              <option>test</option>
+              <option>test1</option>
+              <option>test2</option>
+            </select>
+          </label>
+          <div class="container-list">
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+             <label class="inline"><input type="radio" name="pick" value="test"/> test</label>
+            <label class="inline"><input type="radio" name="pick" value="test1"/> test1</label>
+            <label class="inline"><input type="radio" name="pick" value="test2"/> test2</label>
+          </div>  
+          <div class="container-list">
+            <p>What would you like to see improved? (Check all that apply)</p>
+            <label class="inline"><input type="checkbox" value="test"> test</label>
+            <label class="inline"><input type="checkbox" value="test1"> test1</label>
+            <label class="inline"><input type="checkbox" value="test2"> test2</label>
+          </div> 
+        </fieldset>
+        <fieldset> 
+          <label>
+            Any comments or suggestions?
+            <textarea placeholder="Enter a comment"></textarea>
+          </label>
+        </fieldset>
+        <button id="submit" value="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
